@@ -1,0 +1,35 @@
+#student_comp {
+    background-color: darkgray;
+    border: 1px solid ivory;
+    border-radius: 10px;
+    width: 350px;
+    -padding: 10px 50px 100px 150px;
+    font-size: 25px;
+}
+
+button {
+    background-color: rgb(9, 12, 9); 
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+table{
+    border : 1px solid;
+    border-radius: 15px;
+    width: 350px;
+}
+td{
+    height: 40px;
+    width: 90px;
+    padding-left: 10px;
+}
+.a{
+ text-align: right;
+ padding-right: 30px;
+}
+

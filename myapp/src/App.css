@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  border-bottom-color: #282c34
+}
+
+h1{
+  color: blue;
+}
+.Book {
+  background-color: rgb(220, 191, 253);
+  width: 500px;
+  border:2px dashed #0e53df;
+  border-radius: 10px;
+  height: 150px;
+}
+button{
+  box-align:center;
+  border-radius: 15px;
+  height: 40px;
+  width: 100px;
+  color: #042129;
+  text-decoration-color: black;
+  background-color: rgb(141, 144, 146)
+}
+#one{
+  color: brown;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

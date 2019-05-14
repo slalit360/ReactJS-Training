@@ -1,0 +1,15 @@
+.block1{
+    background-color: rgb(219, 210, 200);
+    border: 2px solid rgb(48, 47, 47);   
+    box-shadow: 5px 5px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.block2{
+    background-color:lightblue;
+    border: 2px solid blue;
+    box-shadow: 5px 5px;
+    width: 500px;
+    border-radius: 10px;
+}
