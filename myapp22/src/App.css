@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+select{
+  width: 190px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: rgb(242, 252, 223);
+  padding: 5px 10px;
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+.logReg{
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.login{
+  margin:0px;
+ }
+
+.register{
+  margin-top: 30px;
+}
+
+input{
+  display: inline;
+  border: 1px solid black;
+  background-color: rgb(242, 252, 223);
+  color: rgb(5, 1, 1);
+  padding: 5px 10px;
+  border-radius: 7px;
+  height: 20px;
+}
+
+input[type=submit]{
+  height: 30px;
+  width: 100px;
+  margin-left: 60px;
+  margin-top: 15px; 
+}
+
+
+
+option{
+  border: 1px solid black;
+  background-color: rgb(242, 252, 223);
+  color:black;
+  padding: 10px 20px;
+}
+
+#subtn{
+  background-color: black;
+  color: antiquewhite;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  margin-right: 100px;
+}
+nav a{
+  padding: 10px;
+  color: black;
+  margin-bottom: 10px;
+  line-height:12px;
+}
+
+nav a:hover{
+  background-color: #989898;
+}
+
+button{
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 7px;
+  border:none;
+}
+
+#results{
+  padding: 10px;
+}
+
+#cartLink{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height:12px;
+}
+
+.form{
+  display: block;
+  border:2px solid black;
+  border-radius: 15px;
+  width: 400px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 100px;
+}
+
+.loginform{
+  display: block;
+  border:2px solid black;
+  border-radius: 15px;
+  width: 300px;
+  padding-right: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  margin-left: 50px;
+}
+
+.linkToPages{
+  color: rgb(12, 11, 15);
+  margin-left: 50px;
+}
+.linkToPages:hover{
+  background-color: lightblue;
+  text-decoration: underline;
+}
+
+.table{
+  display: table;
+}
+
+.row{
+  display: table-row;
+}
+
+.accountInfo, .accountValue, .bookInfo, .cart{
+  display: table-cell;
+  padding: 15px 20px;
+}
+
+.cell{
+  display: table-cell;
+  padding: 5px;
+}
